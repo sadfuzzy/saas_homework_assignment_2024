@@ -201,7 +201,7 @@ DEPENDENCIES
   jbuilder
   jsbundling-rails
   mysql2 (~> 0.5)
-  puma (~> 5.0)
+  puma
   rails (~> 7.0.8)
   redis (~> 4.0)
   sprockets-rails
