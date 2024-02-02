@@ -8,6 +8,7 @@ export default () => {
   const [companyName, setCompanyName] = useState("");
   const [industry, setIndustry] = useState("");
   const [minEmployee, setMinEmployee] = useState("");
+  const [minimumDealAmount, setMinimumDealAmount] = useState("");
 
   // Fetch companies from API
   useEffect(() => {
@@ -30,7 +31,7 @@ export default () => {
             <input type="text" className="form-control" id="company-name" value={companyName} onChange={e => setCompanyName(e.target.value)} />
           </div>
 
-          <label htmlFor="Industry">Industry</label>
+          <label htmlFor="industry">Industry</label>
           <div className="input-group mb-3">
             <input type="text" className="form-control" id="industry" value={industry} onChange={e => setIndustry(e.target.value)} />
           </div>
@@ -38,6 +39,11 @@ export default () => {
           <label htmlFor="min-employee">Minimum Employee Count</label>
           <div className="input-group mb-3">
             <input type="text" className="form-control" id="min-employee" value={minEmployee} onChange={e => setMinEmployee(e.target.value)} />
+          </div>
+
+          <label htmlFor="min-amount">Minimum Deal Amount</label>
+          <div className="input-group mb-3">
+            <input type="text" className="form-control" id="min-amount" value={minimumDealAmount} onChange={e => setMinimumDealAmount(e.target.value)} />
           </div>
 
           <table className="table">
