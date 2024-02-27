@@ -37,7 +37,8 @@ Assumptions to make regarding the user story for this service:
 - Setup a new repository with the source code
 - Implement solution
 - Push your solution to a new branch
-- Create a Pull Request when you're ready and share the link with us 
+- Create a Pull Request within the new repository
+- When you're ready, share a link to the Pull Request with us 
  
 
 ## FAQ
