@@ -45,12 +45,15 @@ Assumptions to make regarding the user story for this service:
 #### How will I be evaluated?
 
 Some of the things we will look at in our evaluation:
+- **Functional correctness** - Does the solution function correctly and meet the requirements of the User Stories.
 - **Code quality** - How you reason about making sure code is readable and maintainable.
 - **Testing** - How you reason about what to test and how to test it.
 - **Performance** - How you can identify performance bottlenecks and reason around solving them.
 - **System design** - How you reason about concepts like reusability, separation of concerns and various abstractions.
 
 In this we also try to understand how you solve problems generally and how you communicate your solutions. Problem solving and communication are both things we value highly.
+
+Finally, we encourage candidates to focus on quality over quantity. Feel free to add notes/comments/etc highlighting what you would expand or improve given more time.
 
 #### Why did you pick this stack?
 This is the stack that the majority of our platform is written in.
