@@ -1,4 +1,14 @@
-import React from "react";
-import Routes from "../routes";
+import React, { Component } from "react";
+import CompaniesContainer  from "./CompaniesContainer";
 
-export default props => <>{Routes}</>;
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <CompaniesContainer />
+      </div>
+    );
+  }
+}
+
+export default App
