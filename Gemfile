@@ -5,6 +5,7 @@ ruby "3.2.2"
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.0.8"
+gem 'active_model_serializers', '~> 0.10.0'
 
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
@@ -51,10 +52,15 @@ gem "bootsnap", require: false
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"
 
+gem 'rack-attack', '~> 6.7.0'
+
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem "debug", platforms: %i[ mri mingw x64_mingw ]
-  gem "faker"
+  gem "faker", '~> 3.3.0'
+  gem 'factory_bot_rails', '~> 6.4.0'
+  gem 'rspec-rails', '~> 6.1.0'
+  gem 'rubocop-rails', '~> 2.24.0'
 end
 
 group :development do
@@ -67,4 +73,3 @@ group :development do
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
 end
-
